@@ -1,0 +1,609 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head {
+    text-align: center;
+    padding: 30px ;
+   background-color: black;
+   color: white;
+   
+}
+
+.head>p {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.aaa{
+    position: relative;
+}
+
+.aaa>h1 {
+    position: absolute;
+    bottom: 210px;
+    left: 230px;
+    color: white;
+    font-size: 43px;
+}
+
+.aaa2{
+    position: relative;
+}
+
+.aaa2>h1 {
+    position: absolute;
+    bottom: 120px;
+    left: 230px;
+    color: white;
+    font-size: 16px;
+}
+
+.aaa3{
+    position: relative;
+
+  
+    
+}
+
+.aaa3>a {
+  
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+    color: white;
+    font-size: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.heimg {
+    position: relative;
+}
+
+.heimg>img {
+    position: absolute;
+    bottom: 20px;
+    height: 60px;
+    left: 200px;
+}
+
+/* .heimg2 {
+    position: relative;
+}
+
+.heimg2>img {
+    position: absolute;
+    width: 30px;
+    left: 1115px;
+    bottom: 30px;
+   
+} */
+
+
+.iimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+.foo {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    /* grid-column-gap: 10px ; */
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 20px;
+    
+}
+
+.foo>a>img {
+   width: 100%;
+   
+}
+
+.text {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: center;
+    column-gap: 30px;
+    
+}
+
+.text>p {
+    background-color: rgb(241, 241, 241);
+    padding-top: 5px;
+    font-size: 15px;
+    
+}
+
+
+.hero {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.foo2   {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: center;
+    column-gap: 30px;
+   
+
+}
+
+.foo2>a>img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.text2 {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 20px;
+}
+
+.eeend img {
+    width: 100%;
+    height: 80%;
+    padding-top: 60px;
+    position: absolute;
+}
+
+/* .ggg {
+    position: relative;
+    top: 100px;
+    color: red;
+} */
+
+@media screen and (max-width: 1440px) {
+    .aaa>h1 {
+        font-size:35px ;
+    }
+    .aaa2>h1 {
+        font-size: 13px ;
+    }
+
+    .heimg>img {
+       left: 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .hero>h1 {
+        font-size: 23px ;
+      
+    }
+
+    .hero h1{
+        margin: 10px;
+    }
+
+    .foo>img {
+        width: 230px;
+        height: 100px;
+        padding: 10px;
+     
+    }
+
+    .head {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .aaa>h1 {
+        font-size:28px ;
+        left: 180px;
+        bottom: 170px;
+    }
+    .aaa2>h1 {
+        font-size: 10px ;
+        left: 180px;
+        bottom: 90px
+    }
+
+    .aaa3>a {
+        left: 200px;
+        font-size: 7px;
+
+    }
+
+    .heimg>img {
+       left: 30px;
+       width: 180px;
+        bottom: 0px;
+    }
+
+    .eeend {
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .hero>h1 {
+        font-size: 19px ;
+    }
+
+    .hero {
+        margin: 60px;
+    }
+
+
+    .foo>img {
+        width: 180px;
+        height: 80px;
+        padding: 8px;
+     
+    }
+
+    .head {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+
+    .aaa>h1 {
+        font-size:21px ;
+        left: 150px;
+        bottom: 140px;
+    }
+    .aaa2>h1 {
+        font-size: 10px ;
+        left: 150px;
+        bottom: 60px
+    }
+
+    .aaa3>a {
+        left: 170px;
+        font-size: 5px;
+
+    }
+
+    .heimg>img {
+       left: 30px;
+       width: 113px;
+        bottom: 0px;
+    }
+
+    .eeend>img {
+        height: 40%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 786px) {
+    .hero>h1 {
+        font-size:14px ;
+    }   
+
+    .hero {
+        margin: 45px;
+    }
+
+
+    .foo>img {
+        width: 140px;
+        height: 60px;
+        padding: 6px;
+     
+    }
+
+    .head {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .aaa>h1 {
+        font-size:14px ;
+        left: 120px;
+        bottom: 130px;
+    }
+    .aaa2>h1 {
+        font-size: 8px ;
+        left: 120px;
+        bottom: 60px
+    }
+
+    .aaa3>a {
+        left: 140px;
+        font-size: 4px;
+
+    }
+
+    .heimg>img {
+       left: 30px;
+       width: 80px;
+        bottom: -10px;
+    }
+
+    .text>p {
+        font-size: 10px;
+    }
+
+    .eeend>img {
+        height: 28%;
+    }
+    
+}
+
+@media screen and (max-width: 660px) {
+
+    .aaa>h1 {
+        font-size:12px ;
+        left: 100px;
+        bottom: 110px;
+    }
+    .aaa2>h1 {
+        font-size: 7px ;
+        left: 100px;
+        bottom: 60px
+    }
+
+    .aaa3>a {
+        left: 120px;
+        font-size: 4px;
+
+    }
+
+    .heimg>img {
+       left: 10px;
+       width: 60px;
+        bottom: -10px;
+    }
+
+    .text>p {
+        font-size: 8px;
+    }
+
+    .text2>strong>p {
+        font-size: 12px;
+    }
+
+    .eeend>img {
+        height: 20%;
+    }
+
+    .foo {
+        column-gap: 10px;
+    }   
+
+    .text {
+        column-gap: 10px;
+    }
+
+    .foo2 {
+        column-gap: 10px;
+    }
+
+    .text2 {
+        column-gap: 10px;   
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .hero>h1 {
+        font-size:10px ;
+    }
+
+    .hero {
+        margin: 35px;
+    }
+
+
+    .foo>img {
+        width: 100px;
+        height: 45px;
+        padding: 4px;
+    }
+
+    .head {
+        padding: 4px;
+        font-size: 8px;
+    }
+
+    .foo {
+         column-gap: 8px;
+    }
+
+    .foo2 {
+        column-gap: 8px;
+    }
+
+    .text {
+        column-gap: 8px;
+    }
+
+    .text2 {
+        column-gap: 8px;
+    }
+
+    .aaa>h1 {
+        font-size:10px ;
+        left: 100px;
+        bottom: 85px;
+    }
+    .aaa2>h1 {
+        font-size: 6px ;
+        left: 100px;
+        bottom: 35px
+    }
+
+    .aaa3>a {
+        left: 120px;
+        font-size: 3px;
+        bottom: 20px;
+
+    }
+
+    .heimg>img {
+        left: 10px;
+        width: 80px;
+         top: 0px
+     }
+
+}
+
+@media screen and (max-width: 420px) {
+    .hero>h1 {
+        font-size:8px ;
+    }
+
+    .hero {
+        margin: 25px;
+    }
+
+
+    .foo>img {
+        width: 75px;
+        height: 35px;
+        padding: 4px;
+     
+    }
+
+    .head {
+        padding: 2px;
+        font-size: 6px;
+    }
+
+
+
+    .foo {
+        display: grid;
+        grid-template-columns: 80% ;
+        /* grid-column-gap: 10px ; */
+        justify-content: center;
+        margin-top: 20px;
+        row-gap: 10px;
+        
+    }
+    
+    .foo>a>img {
+       width: 100%;
+       
+    }
+
+
+    .text {
+        display: grid;
+        grid-template-columns: 80% ;
+        justify-content: center;
+        row-gap: 10px;
+        margin-top: 15px;
+       
+        
+    }
+    
+    .text>p {
+        background-color: rgb(241, 241, 241);
+        padding-top: 5px;
+        font-size: 15px;
+        
+    }
+
+    .t1 {
+        background-color: rgb(225, 150, 150);
+    }
+
+    .t2 {
+        background-color: rgb(137, 135, 135);
+    }
+
+    .t3 {
+        background-color: rgb(237, 161, 236);
+    }
+
+    .t4 {
+        background-color: rgb(244, 159, 113);
+    }
+
+    .hero>h1 {
+        font-size: 16px
+    }
+
+    .foo2   {
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+        column-gap: 30px;
+    }
+    
+    .foo2>a>img {
+        width: 100%;
+        height: 100%;  
+    }
+
+    .text2 {
+        display: grid;
+        grid-template-columns: 40%;
+        justify-content: center;
+        column-gap: 30px;
+        row-gap: 10px;
+        margin-top: 10px;
+        
+    }
+
+    .text2>strong>p {
+        font-size: 15px;
+    }
+    
+    .tt1 {
+        color: rgb(239, 85, 236) ;
+    }
+
+    .tt2 {
+        color: rgb(235, 88, 20) ;
+    }
+
+    .tt3 {
+        color: rgb(89, 153, 161) ;
+    }
+
+    .iimg>img {
+        height: 200px;
+      
+    }
+
+    .aaa>h1 {
+        font-size:10px ;
+        left: 20px;
+        bottom: 85px;
+    }
+    .aaa2>h1 {
+        font-size: 7px ;
+        left: 20px;
+        bottom: 35px
+    }
+
+    .aaa3>a {
+        left: 40px;
+        font-size: 4px;
+        bottom: 20px;
+    }
+
+    .heimg>img {
+        left: 10px;
+        width: 80px;
+         top: -5px
+     }
+
+     .head {
+        font-size: 10px;
+    }
+}
